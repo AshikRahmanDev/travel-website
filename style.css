@@ -1,0 +1,76 @@
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+    url(images/pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-blue{
+    color: rgb(56, 140, 230);
+}
+.header-details{
+    height: 80vh;
+}
+.title{
+    font-size: 60px;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    background-image: linear-gradient(white ,white);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -500px;
+    animation: textBack 5s linear infinite alternate;
+}
+
+@keyframes textBack {
+    100%{
+        background-position: 0% 0%;
+    }
+    
+}
+.book-btn{
+    background-color: rgb(56, 140, 230);
+    border: 1px solid rgb(56, 140, 230);
+    border: 0;
+    border-radius: 15px;
+    padding: 6px 15px;
+    font-size: 15px;
+}
+.book-btn:hover{
+    background-color: transparent;
+    border: 1px solid white;
+}
+/* popular destination style */
+.destination-card{
+    width: 300px;
+    height: 450px;
+}
+.japan{
+    background-image:url(images/japan.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.london{
+    background-image:url(images/tower-bridge.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.dhaka{
+    background-image:url(images/dhaka-river.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card-details{
+    background-color: rgba(255, 255, 255,0.7);
+    backdrop-filter: blur(5px);
+    width: 250px;
+    height: 100px;
+}
+.card-text{
+    font-size: 12px;
+}
