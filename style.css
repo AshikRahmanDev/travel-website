@@ -2,7 +2,7 @@ header{
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
-    url(images/pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg);
+    url(https://images.unsplash.com/photo-1539667468225-eebb663053e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=817&q=80);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -94,19 +94,19 @@ header{
     height: 450px;
 }
 .japan{
-    background-image:url(images/japan.jpg);
+    background-image:url(https://images.unsplash.com/photo-1542931287-023b922fa89b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8amFwYW58ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .london{
-    background-image:url(images/tower-bridge.jpg);
+    background-image:url(https://images.unsplash.com/photo-1535051188811-c841ac77c80b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .dhaka{
-    background-image:url(images/dhaka-river.jpg);
+    background-image:url(https://images.unsplash.com/photo-1564937494144-59898c6afbd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=323&q=80);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -131,7 +131,7 @@ header{
 .discount-bg{
     width:100%;
     height: 500px;
-    background-image: url(images/pakage/bangkok.jpg);
+    background-image: url(https://images.unsplash.com/photo-1657633123398-434420281475?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fGJlYWNoJTIwYmFja2dyb3VuZHxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,7 +139,7 @@ header{
 .discount-bg2{
     width:100%;
     height: 500px;
-    background-image: url(images/pakage/ifel-tower2.jpg);
+    background-image: url(https://images.unsplash.com/photo-1652404694133-00fc411415bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=537&q=80);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
