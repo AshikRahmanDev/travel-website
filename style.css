@@ -182,7 +182,9 @@ header{
 .reviews{
     width: 350px;
 }
-
+.bg-footer{
+    background-color: #304146;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -197,5 +199,17 @@ header{
     }
     .title-p{
         display: none;
+    }
+    .gallery{
+        display: none;
+    }
+    .post{
+        display: none;
+    }
+    .brand{
+        text-align: center;
+    }
+    .contact{
+        text-align: center;
     }
 }
