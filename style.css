@@ -153,7 +153,7 @@ header{
 .discount-details{
     background-color: rgba(255, 255, 255,0.8);
     width: 80%;
-    height: 212px;
+    height: 200px;
     backdrop-filter: 5px;
     margin: 0%;
     margin-top:235px;
@@ -165,12 +165,23 @@ header{
 .old-price{
     text-decoration-line: line-through;
 }
+.location{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 /* gallery */
 .photo{
     height: 250px;
     object-fit: cover;
 }
 
+.traveler-img{
+    object-fit: cover;
+}
+.reviews{
+    width: 350px;
+}
 
 
 
@@ -180,5 +191,11 @@ header{
     }
     .title{
         font-size: 40px;
+    }
+    .location{
+        display: none;
+    }
+    .title-p{
+        display: none;
     }
 }
